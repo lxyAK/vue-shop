@@ -1,0 +1,30 @@
+{
+  "id": "2071016",
+  "name": "vue_shop",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "11674755",
+      "name": "account-fill",
+      "font_class": "account-fill",
+      "unicode": "e7aa",
+      "unicode_decimal": 59306
+    },
+    {
+      "icon_id": "11488230",
+      "name": "bussiness-man-fill",
+      "font_class": "bussiness-man-fill",
+      "unicode": "e779",
+      "unicode_decimal": 59257
+    },
+    {
+      "icon_id": "11488289",
+      "name": "password",
+      "font_class": "password",
+      "unicode": "e786",
+      "unicode_decimal": 59270
+    }
+  ]
+}
