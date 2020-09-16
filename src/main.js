@@ -6,8 +6,11 @@ import './plugins/element.js'
 import './assets/css/global.css'
 // 导入字体图标
 import '../src/assets/font/iconfont.css'
-
-Vue.config.productionTip = false
+// 配置 axios
+import axios from 'axios'
+// 配置请求的基准URL地址
+// axios.defaults.baseURL = 'http://127.0.0.1:3000'
+Vue.prototype.$http = axios
 
 new Vue({
   router,
