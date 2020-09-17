@@ -10,6 +10,14 @@ import '../src/assets/font/iconfont.css'
 import axios from 'axios'
 // 配置请求的基准URL地址
 // axios.defaults.baseURL = 'http://127.0.0.1:3000'
+// axios设置请求拦截器
+axios.interceptors.request.use(config => {
+  console.log(config)
+  config.headers.Authorizatior = sessionStorage.getItem('token') // 设置响应头
+  return config
+}, err => {
+  console.log(err)
+})
 Vue.prototype.$http = axios
 
 new Vue({

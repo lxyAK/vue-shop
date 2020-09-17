@@ -39,8 +39,8 @@ export default {
     return {
       // 表单的数据绑定对象
       loginForm: {
-        email: '',
-        password: ''
+        email: 'lkqqqq1234@126.com',
+        password: 'google8908'
       },
       // 表单的验证规则对象
       loginFormRules: {
@@ -79,7 +79,10 @@ export default {
         // 通过则发送请求
         // 结构赋值出数据里的 data 属性，其他的不要
         // console.log(this.loginForm)
-        const { data: res } = await this.$http.post('/api/login', this.loginForm)
+        const { data: res } = await this.$http.post(
+          '/api/login',
+          this.loginForm
+        )
         switch (res.status) {
           case 200:
             this.$message.success('登录成功')
@@ -87,12 +90,12 @@ export default {
             // 跳转到home 首页
             this.$router.push('/home')
             break
-          case 1:this.$message.error('邮箱或者密码错误')
+          case 1:
+            this.$message.error('邮箱或者密码错误')
             break
         }
       })
     }
-
   }
 }
 </script>
