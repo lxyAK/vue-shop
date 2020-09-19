@@ -6,3 +6,15 @@ body,
 	margin: 0;
 	padding: 0;
 }
+/* 面包屑导航栏 */
+.el-breadcrumb {
+	margin-bottom: 20px;
+}
+/* 卡片 */
+.el-card.is-always-shadow, .el-card.is-hover-shadow:focus, .el-card.is-hover-shadow:hover {
+	box-shadow: 0 1px 1px rgba(0,0,0,0.15);
+}
+/* table 表格 */
+.el-table--border {
+	margin-top: 20px;
+}
