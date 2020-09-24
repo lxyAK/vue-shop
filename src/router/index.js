@@ -8,8 +8,8 @@ import Users from '../components/user/Users.vue'
 import Goodslist from '../components/goods/Goodslist.vue'
 import Goodsclass from '../components/goods/Goodsclass.vue'
 import Fenleicanshu from '../components/goods/Fenleicanshu.vue'
-import Rights from '../components/Rightsmanagement/Rights.vue'
-import Rolelist from '../components/Rightsmanagement/Rolelist.vue'
+import Rights from '../components/power/Rights.vue'
+import Roles from '../components/power/Roles.vue'
 
 Vue.use(VueRouter)
 
@@ -27,7 +27,7 @@ const routes = [
       { path: '/goodsclass', component: Goodsclass },
       { path: '/fenleicanshu', component: Fenleicanshu },
       { path: '/rights', component: Rights },
-      { path: '/rolelist', component: Rolelist }
+      { path: '/roles', component: Roles }
     ]
   }
 ]

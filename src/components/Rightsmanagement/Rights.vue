@@ -1,5 +1,0 @@
-<template>
-  <div>
-    <h1>权限列表组件</h1>
-  </div>
-</template>

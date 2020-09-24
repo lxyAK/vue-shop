@@ -115,7 +115,7 @@ export default {
             {
               authName: '角色列表',
               id: 146,
-              path: 'rolelist'
+              path: 'roles'
             },
             {
               authName: '权限列表',
