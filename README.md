@@ -1,5 +1,5 @@
 # vue_shop
-
+> 基于Vue全家桶开发的电商后台管理系统
 ## Project setup
 ```
 npm install
